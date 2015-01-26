@@ -1,0 +1,62 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FelicaCashingSystemV2.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SmtpHost" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ugs-mail.kochi-tech.ac.jp</Value>
+    </Setting>
+    <Setting Name="SmtpPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="SmtpUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">robot</Value>
+    </Setting>
+    <Setting Name="SmtpPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="MailFrom" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">robot@ugs.kochi-tech.ac.jp</Value>
+    </Setting>
+    <Setting Name="AdminCardUids" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="AvatarSize" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">96</Value>
+    </Setting>
+    <Setting Name="ImageFileFilter" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">画像ファイル|*.jpg;*.png;*.gif;*.bmp;*.tiff|すべてのファイル|*.*</Value>
+    </Setting>
+    <Setting Name="RobotClubUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://www.ugs.kochi-tech.ac.jp/robot/lobby/main_lobby.htm</Value>
+    </Setting>
+    <Setting Name="FelicaUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://www.sony.co.jp/Products/felica/</Value>
+    </Setting>
+    <Setting Name="ThumbnailAvatarSize" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">32</Value>
+    </Setting>
+    <Setting Name="MailFromName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ロボット倶楽部</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mongodb://localhost</Value>
+    </Setting>
+    <Setting Name="InitialUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">管理者</Value>
+    </Setting>
+    <Setting Name="InitialPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="InitialEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">robot@ugs.kochi-tech.ac.jp</Value>
+    </Setting>
+    <Setting Name="DatabaseName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Felica</Value>
+    </Setting>
+    <Setting Name="InitialDebugPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">password</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
