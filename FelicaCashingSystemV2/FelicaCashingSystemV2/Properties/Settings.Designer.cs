@@ -186,5 +186,14 @@ namespace FelicaCashingSystemV2.Properties {
                 return ((string)(this["InitialDebugPassword"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        public int AutoLogoutTimerSecMin {
+            get {
+                return ((int)(this["AutoLogoutTimerSecMin"]));
+            }
+        }
     }
 }
